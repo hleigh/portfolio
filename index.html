@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Haley Leigh</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#home" class="nav__logo"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Haley</span><br> Welcome to my <br> portfolio</h1>
+
+                    <a href="./assets/resume 2020.pdf" target="_blank" class="button home__button">Resume</a>
+                </div>
+
+                <div class="home__social">
+                </div>
+
+                <div class="home__img">    
+                    <img src="./img/headshotBlob.png" alt="headshot">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="./img/aboutBlob.png" alt="headshot">
+                    </div>
+                    
+                    <div>
+                        <p class="about__text">During the length of my college career I have had the opportunity to work with a range of clients. I started out 
+                            in my field with a digital marketing internship at Boys Town Press in 2019 and from there I went on to join MaverickPR, the student-run 
+                            PR agency at the University of Nebraska-Omaha. During my summer with MaverickPR I worked on designs for SWAG, brochures, re-branded 
+                            logos, wrote a few feature stories, and more. Other clients I have had include the Douglas County Health Center and Delta Sigma Pi, 
+                            the professional business fraternity.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--=== Clients ===-->
+            <section class="clients section" id="clients">
+                <h2 class="section-title">Clients</h2>
+                <div class="clients__container bd-grid">
+                    <div class="clients__content">
+                        <img class="clients__img" src="./img/dchc.png" alt="Douglas County Health Center logo">
+                        <h3 class="clients__title">Douglas County Health Center</h3>
+                        <p class="clients__text">This client was my Capstone client. I worked on their social media, 
+                            updated their letterhead, created a content calendar for them, created graphics, and more.</p>
+                    </div>
+                    <div class="clients__content">
+                        <img class="clients__img" src="./img/dsp.png" alt="Delta Sigma Pi logo">
+                        <h3 class="clients__title">Delta Sigma Pi</h3>
+                        <p class="clients__text">This client was for my Strategic Writing course at UNO. I created a content calendar, feature stories, 
+                            web blog posts, and a newsletter design.</p>
+                    </div>
+                    <div class="clients__content">
+                        <img class="clients__img" src="./img/griefsJourney.png" alt="Grief's Journey Logo">
+                        <h3 class="clients__title">Grief's Journey</h3>
+                        <p class="clients__text">This client was one of my clients for MaverickPR. I created designs for T-shirts and other swag, yard signs f
+                            or a remembrance walk, and more.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section bd-container" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__nav">
+                    <span class="work__item active-work" data-filter="all">All</span>
+                    <span class="work__item" data-filter=".design">Design</span>
+                    <span class="work__item" data-filter=".copy">Copy</span>
+                    <span class="work__item" data-filter=".news">Newswriting</span>
+                </div>
+
+                <div class="work__container bd-grid">
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/smithEDC.png" alt="brand logo" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">Branding Packet</h2>
+                            <a href="./assets/Design/Branding Packat - coursework no client.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/saveTheBees.png" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">Infographic</h2>
+                            <a href="./assets/Design/Infographic - no client.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/dchcDesign.png" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">Douglas County Health Center Letterhead</h2>
+                            <a href="./assets/Design/Letterhead Douglas County Health Center.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/Logo Design - Grief's Journey.png" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">Grief's Journey Logo</h2>
+                            <a href="./assets/Design/Logo Design - Grief's Journey.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/kvnoLogo.png" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">KVNO Radio Logo</h2>
+                            <a href="./assets/Design/Logo Design - KVNO.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/dchcDesign.png" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">Douglas County Health Center Social Media Post</h2>
+                            <a href="./assets/Design/Social Media Post - Douglas County Health Center (1).pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/dchcDesign.png" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">Douglas County Health Center Social Media Post</h2>
+                            <a href="./assets/Design/Social Media Post - Douglas County Health Center.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix design">
+                        <a href="#"><img src="./img/griefsJourneyDesign.png" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Design</span>
+                            <h2 class="work__title">Grief's Journey Yard Sign</h2>
+                            <a href="./assets/Design/Yard Sign - Grief's Journey.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <!-- Copy -->
+
+                    <div class="work__content mix copy">
+                        <a href="#"><img src="./img/dspCopy.jpg" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Copy</span>
+                            <h2 class="work__title">Delta Sigma Pi Blog Post</h2>
+                            <a href="./assets/Copy/Blogpost_01.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix copy">
+                        <a href="#"><img src="./img/boysTown.jpg" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Copy</span>
+                            <h2 class="work__title">Boys Town Profile</h2>
+                            <a href="./assets/Copy/Boys Town Profile.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix copy">
+                        <a href="#"><img src="./img/foodBank.jpg" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Copy</span>
+                            <h2 class="work__title">Food Bank for the Heartland News Release</h2>
+                            <a href="./assets/Copy/celebritychefnewsrelease.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix copy">
+                        <a href="#"><img src="./img/dspCopy.jpg" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Copy</span>
+                            <h2 class="work__title">Delta Sigma Pi News Release</h2>
+                            <a href="./assets/Copy/News Release_01.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix copy">
+                        <a href="#"><img src="./img/liveOn.jpg" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Copy</span>
+                            <h2 class="work__title">Live On Nebraska Radio PSA</h2>
+                            <a href="./assets/Copy/Radio PSA Draft.pdf" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <!-- News -->
+                    <div class="work__content mix news">
+                        <a href="#"><img src="./img/dailyNebraskan.png" alt="Daily Nebraskan Logo" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Newswriting</span>
+                            <h2 class="work__title">The Daily Nebraskan</h2>
+                            <a href="http://www.dailynebraskan.com/news/unl-study-finds-link-between-stress-levels-and-emotional-control/article_92b3ac6e-db02-11e7-bfb5-e3e3dd3509d0.html" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix news">
+                        <a href="#"><img src="./img/dailyNebraskan.png" alt="Daily Nebraskan Logo" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Newswriting</span>
+                            <h2 class="work__title">The Daily Nebraskan</h2>
+                            <a href="http://www.dailynebraskan.com/news/unl-assistant-professor-research-team-develop-gum-disease-fighting-membrane/article_f0582d1e-d4ad-11e7-92d4-1714891caa0a.html" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix news">
+                        <a href="#"><img src="./img/norfolkDailyNews.jpg" alt="Norfolk Daily News Logo" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Newswriting</span>
+                            <h2 class="work__title">Norfolk Daily News</h2>
+                            <a href="https://norfolkdailynews.com/news/norfolk-impacted-by-inequity-in-sales-tax-collections/article_184cf86e-d138-11e7-88ff-bf666d06178a.html" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+
+                    <div class="work__content mix news">
+                        <a href="#"><img src="./img/uno.jpg" alt="" class="work__img"></a>
+                        <div class="work__data">
+                            <span class="work__subtitle">Newswriting</span>
+                            <h2 class="work__title">The Omaha News</h2>
+                            <a href="http://unomahanews.com/2020/11/09/early-voting-doubles-in-size-compared-to-regular-general-elections/" target="_blank" class="button">View</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <div class="contact__content bd-grid">
+                        <div class="contact__box">
+                            <i class='bx bxs-phone contact__icon'></i>
+                            <h3 class="contact__title">Phone</h3>
+                            <span class="contact__description">832-657-6081</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__content bd-grid">
+                        <div class="contact__box">
+                            <i class='bx bxs-envelope contact__icon' ></i>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__description">haley.e.leigh@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__content bd-grid">
+                        <div class="contact__box">
+                            <i class='bx bxl-linkedin-square contact__icon' ></i>
+                            <h3 class="contact__title">LinkedIn</h3>
+                            <span class="contact__description">Link here</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Haley Leigh</p>
+            <p>&#169; 2020</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MIXITUP JS =====-->
+        <script src="./js/mixitup.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="./js/main.js"></script>
+    </body>
+</html>

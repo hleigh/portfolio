@@ -1,0 +1,11 @@
+/* @font-face */
+
+@font-face {
+    font-family: "Crimson Text";
+    src: url('../fonts/Crimson_Text/CrimsonText-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url('../fonts/Work_Sans/static/WorkSans-Regular.ttf');
+}
