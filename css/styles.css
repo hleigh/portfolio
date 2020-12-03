@@ -379,6 +379,11 @@ img{
   box-shadow: 0 6px 8px rgba(174, 190, 205, .4);
 }
 
+.linkedInLink {
+  font-size: var(--h3-font-size);
+  color: var(--second-color);
+}
+
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
